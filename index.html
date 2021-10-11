@@ -9,22 +9,55 @@
 <style>
   .container{
       width:700px;
-      height:100px;
-      border-bottom:1px solid blue;
+      height:400px;
+      border:1px solid blue;
+      border-radius: 8px;
       margin:50px auto;
   }
   .content-titel{
     text-align:center;
+    margin-left:0px;
+    font-weight: 300;
   }
   .content-paragraph{
       width:400px;
       margin:0px auto;
   }
+
+  .content-img{
+      display:flex;
+      margin:30px 230px;
+  }
+
+  .dio{
+      width:100px;
+      height:100px;
+      object-fit:cover;
+      border-radius:50px;
+      float:left;
+  }
+  .eduzz{
+      width:100px;
+      height:100px;
+      object-fit:cover;
+      border-radius:50px;
+      float:right;
+  }
 </style>
 <body>
     <div class="container">
-        <h1 class="content-titel">meu repositorio no github</h1>
+        <h1 class="content-titel">Meu primeiro repositorio no github</h1>
         <p class="content-paragraph">repositorio criado para ser o projeto da aula de git e github do bootcamp da duzz na dio (digiral inivetion one)</p>
+        
+       <div class="content-img">
+        <div class="diocont">
+            <img  class="dio" src="./dio.png" alt="" srcset="">
+        </div>
+        <div class="eduzzcont">
+            <img class="eduzz" src="./eduzz.png" alt="" srcset="">
+        </div>
+       </div>
+    
     </div>
 </body>
 </html>
